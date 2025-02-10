@@ -4,13 +4,22 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "conc \"npm run api\" \"npm run frontend\"",
+    "api": "nodemon",
+    "frontend": "vite --port 5100 --open",
     "build": "run-p type-check \"build-only {@}\" --",
     "preview": "vite preview",
     "build-only": "vite build",
     "type-check": "vue-tsc --build",
     "lint": "eslint . --fix",
     "format": "prettier --write src/"
+  },
+  "nodemonConfig": {
+    "watch": [
+      "backend"
+    ],
+    "ext": "cs",
+    "exec": "cd backend && bash ./run-api.sh"
   },
   "dependencies": {
     "pinia": "^2.3.1",
@@ -28,6 +37,7 @@
     "eslint": "^9.18.0",
     "eslint-plugin-vue": "^9.32.0",
     "jiti": "^2.4.2",
+    "nodemon": "^3.1.9",
     "npm-run-all2": "^7.0.2",
     "prettier": "^3.4.2",
     "typescript": "~5.7.3",

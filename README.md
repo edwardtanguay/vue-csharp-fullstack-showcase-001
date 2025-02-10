@@ -2,6 +2,8 @@
 
 This is a fullstack C#/Vue application that runs in one directory. 
 
+![thedatanadread](https://github.com/user-attachments/assets/8a33e9a0-c1d5-426e-9a27-64868b6d9e16)
+
 ## frontend
 
 -   Vue 3

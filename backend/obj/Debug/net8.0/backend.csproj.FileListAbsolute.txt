@@ -31,3 +31,4 @@ C:\edward\learn2025\VUE-CSHARP\vue-csharp-fullstack-showcase-001\backend\obj\Deb
 C:\edward\learn2025\VUE-CSHARP\vue-csharp-fullstack-showcase-001\backend\obj\Debug\net8.0\backend.pdb
 C:\edward\learn2025\VUE-CSHARP\vue-csharp-fullstack-showcase-001\backend\obj\Debug\net8.0\backend.genruntimeconfig.cache
 C:\edward\learn2025\VUE-CSHARP\vue-csharp-fullstack-showcase-001\backend\obj\Debug\net8.0\ref\backend.dll
+C:\edward\learn2025\VUE-CSHARP\vue-csharp-fullstack-showcase-001\backend\obj\Debug\net8.0\backend.sourcelink.json
